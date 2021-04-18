@@ -1,0 +1,279 @@
+body{
+
+    background-color: rgb(39, 39, 43);
+    
+}
+.info *{
+    text-align: center;
+}
+#site-result{
+    font-size: 60px;
+}
+#upvote-result{
+    color:green;
+}
+#downvote-result{
+    color:red;
+}
+#input-search{
+    width:88%;
+}
+#searchh{
+    width:fit-content;
+    height:fit-content;
+}
+#searchh:hover{
+    background-color: rgb(31, 112, 204);
+}
+#button1, #button2{
+    width:30%;
+    height:90%;
+    border-width: 1px;
+}
+.info{
+    color:white;
+}
+.verdemare{
+
+    color:rgb(31, 112, 204);
+    font-size:300%;
+    font-weight: lighter;
+
+}
+.verdemic{
+
+    color:rgb(255, 255, 255);
+
+}
+#result{
+    display: none;
+}
+.input{
+
+    background-color:rgb(39, 39, 43);
+    border-color: rgb(39, 39, 43);
+    border-bottom: white;
+    width:100%;
+    height:40px;
+    border-style:hidden hidden solid hidden;
+    color:white;
+    text-align: center;
+    transition-duration: 0.3s;
+    align-items: center;
+
+}
+.logon-inputs{
+    margin:1%;
+    height:50px;
+    width:500px;
+    padding:3%;
+    background-color: rgb(39, 39, 43);
+    color: white;
+    font-size: 150%;
+    font-weight:bolder;
+    border: 2px solid white;
+    transition-duration: .1s;
+    
+}
+@media only screen and (max-width:538px){
+    .logon-inputs{
+    width:450px;
+    }
+}
+@media only screen and (max-width:475px){
+    .logon-inputs{
+    width:400px;
+    }
+}
+@media only screen and (max-width:425px){
+    .logon-inputs{
+    width:350px;
+    }
+}
+@media only screen and (max-width:380px){
+    .logon-inputs{
+    width:300px;
+    }
+}
+@media only screen and (max-width:323px){
+    .logon-inputs{
+    width:250px;
+    }
+}
+@media only screen and (max-width:278px){
+    .logon-inputs{
+    width:200px;
+    }
+}
+.butt{
+    color:white;
+    border-width: 10px;
+
+}
+.butt:hover{
+    background-color: rgb(31, 112, 204);
+}
+.logon-inputs::placeholder, .logon-inputs::ms-input-placeholder{
+    font-size: 100%;
+}
+.logon-inputs:hover{
+    border: 3px solid rgb(31, 112, 204);
+}
+.site{
+    font-size:30px;
+}
+.contt{
+    margin-left:0%;
+    margin-top:1%;
+}
+.lista{
+
+    font-size: 140%;
+    font-weight: bold;
+}
+#logon-fake{
+    margin-top: 10%;
+}
+.white{
+    color:white;
+}
+.list{
+    color:white;
+    
+}
+
+.buttton{
+
+    width: 80%;
+    height: 100px;
+    background-color: rgb(36, 35, 37);
+    color: rgb(31, 112, 204);
+    font-weight: bolder;
+    
+    border-radius: 15px;
+    border-color:rgb(31, 112, 204);
+    border-width: 0.3rem;
+    font-size: 1rem; 
+
+
+
+}
+.input::placeholder{
+
+    color:rgb(99, 99, 99);
+    font-weight:bolder;
+    font-size: 125%;
+
+}
+
+.input::ms-input-placeholder{
+
+    color:rgb(99, 99, 99);
+    font-weight:bolder;
+    font-size: 125%;
+
+}
+.input:hover{
+
+    border-color: rgb(31, 112, 204);
+
+}
+.add{
+
+    background-color: rgb(39, 39, 43);
+    color: rgb(31, 112, 204);
+    font-size: 250%;
+    font-weight:bolder;
+    border: none;
+    width:40px;
+    height:40px;
+
+}
+p{
+
+    color:white;
+    padding-bottom: 1px;
+
+}
+.lista{
+
+    font-size: 140%;
+    font-weight: bold;
+}
+.white{
+    color:white;
+}
+.list{
+    color:white;
+    
+}
+.site{
+    font-size:30px;
+}
+.button{
+
+    width: 80%;
+    height: 100px;
+    background-color: rgb(36, 35, 37);
+    color: rgb(31, 112, 204);
+    font-weight: bolder;
+    
+    border-radius: 15px;
+    border-color:rgb(31, 112, 204);
+    border-width: 0.3rem;
+    font-size: 1rem; 
+
+
+
+}
+#vanish{
+    width: 80%;
+    height: 100px;
+    background-color: rgb(36, 35, 37);
+    color: rgb(31, 112, 204);
+    font-weight: bolder;
+    
+    border-radius: 15px;
+    border-color:rgb(31, 112, 204);
+    border-width: 0.3rem;
+    font-size: 1rem; 
+}
+#vanish:hover{
+    background-color: rgb(31, 112, 204);
+    color: rgb(36, 35, 37);
+}
+
+.button:hover{
+
+    background-color: rgb(31, 112, 204);
+    color: rgb(36, 35, 37);
+}
+
+#div1{
+
+    text-align-last: center;
+
+}
+.minus{
+
+    color: red;
+    font-size: 300%;
+    background-color:rgb(39, 39, 43);
+    font-weight: bolder;
+    padding-bottom: 0px;
+    padding-top:0px;
+    width: 80%;
+
+    
+}
+.minus:hover{
+
+    color: red;
+    font-size: 300%;
+    background-color:rgb(39, 39, 43);
+    font-weight: bolder;
+    border-width: 1px;
+    border-color: red;
+
+}
+
